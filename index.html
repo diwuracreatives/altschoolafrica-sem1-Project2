@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <!-- Add link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="content">
+        <div class="container">
+            <div class="column-1">
+                <div>
+                    <img src="./images/Logo.png" alt="Logo" class="logo">
+                    <h1 class="brand-title">For Individuals</h1>
+                    <p class="brand-story">Start benefiting from the wellness experience. For <br> companies looking on
+                        increasing productivity, and improving <br>organization wellness.</p>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="signup-form">
+                    <form action="/submit-your-form-handler" method="post">
+                        <div class="form-group">
+                            <div class="form-inner">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first_name">
+                            </div>
+                            <div class="form-inner">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last_name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-inner">
+                                <label for="gender">Gender</label>
+                                <select id="gender" name="gender">
+                                    <option value="">Select here</option>
+                                </select>
+                            </div>
+                            <div class="form-inner">
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" id="dob" name="date_of_birth">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-inner">
+                                <label for="weight">Weight (KG)</label>
+                                <input type="text" id="weight" name="weight" placeholder="Enter Weight">
+                            </div>
+                            <div class="form-inner">
+                                <label for="height">Height (CM)</label>
+                                <input type="text" id="height" name="height" placeholder="Enter height here...">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-inner">
+                            <label for="activity-level">Activity Level</label>
+                            <select id="activity-level" name="activity_level" style="width:502px;">
+                                <option value="">Select here</option>
+                              
+                            </select>
+                        </div>
+                    </div>
+
+                        <div class="form-group">
+                            <div class="form-inner">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" style="width:502px;">
+                        </div>
+                    </div>
+
+                        <div class="form-group">
+                            <button type="submit">Register</button>
+                        </div>
+
+                        <p class="terms">
+                            By clicking Register, you agree to our <a href="#">Terms of Use</a> and <a
+                                href="privacy.html">Privacy Policy</a>.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
