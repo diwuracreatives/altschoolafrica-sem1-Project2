@@ -11,4 +11,4 @@ A Basic signup website application created with HTML and CSS. It provides a simp
 To get started with this project, clone this repository to your local machine.
 
 ## Demo Link
-Link to project - https://github.com/your-username/your-repo-name.git
+Link to project - https://bolualtschool-assignment2.netlify.app/
